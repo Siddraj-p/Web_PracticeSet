@@ -1,0 +1,6 @@
+document .body               ----returns the <body>
+document.head                ----returns the <head>
+documenyt.documentElement    --- returns the html tag
+  
+typeOf                         -- returns the type of object
+    

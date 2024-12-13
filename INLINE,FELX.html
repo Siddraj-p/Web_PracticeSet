@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gri</title>
+	<style>
+		*{
+			
+			height: 100%;
+		}
+		.one{
+		
+			display: grid;
+			grid-template-rows:100px 150px 200px 100px ;
+			grid-template-columns: 25% 50% 25%;
+			grid-gap: 20px 30px;
+					}
+		.item{
+				border: 30px;
+			border: 3px solid black;
+		}
+		.item-1{
+			grid-row: 3/4;
+			grid-column:3/4;
+		}
+		.item2{
+			grid-row: 4/5;
+			grid-column:2/3;
+			background-color: darkcyan;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="one">
+<div class ="item" class="item1">112</div>
+<div class="item">13</div>
+<div class="item">14</div>
+<div class="item">15</div>
+<div class="item item-1">
+
+	
+
+</div>
+<div class="item item2">17</div>
+</div>
+
+</body>
+</html>

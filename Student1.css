@@ -1,0 +1,40 @@
+.one {
+	color: orchid;
+padding-left: 13px;
+}
+.two{
+	padding-left: 123px;
+}
+.three{
+	padding-left: 1px;
+ text-align: center;
+
+}
+.log{
+	background-color: olive;
+ width: 482px;
+ height: 500px;
+ 	margin: auto;
+	padding-top: 50px;
+	padding-left: 8		0px;
+
+	border-radius: 25px;
+
+}
+.signup{
+	background-color: rgb(220, 60, 134);
+	color: white;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+	padding-bottom: px;
+	border-color: black	;
+ border-style: dotted;
+}
+.h5 hover{
+	color: red;
+
+}
+.her:hover{
+	color: red;
+}

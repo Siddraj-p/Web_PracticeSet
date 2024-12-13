@@ -1,0 +1,17 @@
+
+div{
+	height:100px;
+	width: 140px;
+	background-color: dimgrey;
+	border-width:3px;
+	border-style:solid;
+	bordre-color:black;
+	text-weight:400px;
+	text-decoration-thickness:20px;
+	text-align:center;
+	border-radius: 10px;
+	margin: 10px;
+	padding:10px;
+	display: inline;
+}
+

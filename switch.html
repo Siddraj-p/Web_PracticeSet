@@ -1,0 +1,30 @@
+<html>
+	<body>
+		
+		<h1>Java sript sorting</h1>
+		<h3 id="demo"></h3>
+		<button onclick="fun1()">alphabetical</button>
+		<button onclick="fun2()">ascending</button>
+				<button onclick="fun3()">descending</button>
+
+		<script type="text/javascript">
+
+		let num=[3,58,12,2,123,987,43,45,34]
+		document.getElementById('demo').innerHTML=num;
+
+		function fun1(){
+		let nu=num.sort();
+					document.getElementById('demo').innerHTML=nu;
+		}
+function fun3(){
+		let numb=num.sort(function(a,b){return b-a});
+					document.getElementById('demo').innerHTML=numb;
+		}
+function fun2(){
+		let nu=num.sort(function(a,b){return a-b});
+					document.getElementById('demo').innerHTML=nu;
+		}
+			
+		</script>
+	</body>
+</html>

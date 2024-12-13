@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h2 id="one"></h2> <script>
+ function call(name,age){
+this. name=name;
+this. age=age;
+ }
+
+
+const person1=new call("sidd", 24);
+person1.name=function(){
+   return this.name+ " "+ this.age;
+}
+document.getElementById('one').innerHTML =person1.name();
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+	<body>
+		<p>two  button function print on one place</p>
+					<p id="demo"></p>
+						<button onclick="fun1()">name</button>
+												<button onclick="fun2()">ADDRESS</button>
+
+		<script type="text/javascript">
+		const point=[12,1234,43,455,56654,34];	
+		let name="sidddu"
+		let address="chk Bidar"
+			
+			document.getElementById('demo').innerHTML=point
+
+			function fun1() {
+				point.sort();
+				document.getElementById('demo').innerHTML=point
+				
+			}
+			function fun2(){
+				document.getElementById('demo').innerHTML=address
+			}
+		</script>
+	</body>
+</html>

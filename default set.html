@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>setting default value</h1>
+	<h3 id="one"></h3>
+	<script>
+
+
+	 function fun(x,z) {
+	 if(z=== []){
+	 	z=2;
+	 }	
+			return x*z;
+
+		}
+	let y=document.getElementById('one');
+	y.innerHTML=fun(2,[]);
+
+document.getElementById('one').innerHTML=fun2(4);
+
+	function fun2(a,b=10) {
+		return a+b;
+		// body...
+	}
+	</script>
+
+</body>
+</html>
